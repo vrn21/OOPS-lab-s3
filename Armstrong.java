@@ -8,9 +8,9 @@ public class Armstrong {
         int ncopy = n;
         int sum = 0;
         while (ncopy != 0 ){
-            ncopy /= 10;
             int digit = ncopy%10;
             sum += digit*digit*digit;
+	    ncopy /= 10;
         }
         if (sum == n){System.out.println(n + " is an Armstrong number");}
     }
