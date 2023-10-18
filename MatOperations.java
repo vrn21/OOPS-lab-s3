@@ -68,7 +68,7 @@ class MatAdd{
 		int[][] matC = new int[rows1][cols2];
 		for (int i = 0; i < rows1; i++) {
 			for (int j = 0; j < cols2; j++) {
-				int result = 0;
+				matC[i][j] = 0;
 				for (int k = 0; k < cols1; k++) {
 					matC[i][j] += mat1[i][k] + mat2[j][k];
 				}
