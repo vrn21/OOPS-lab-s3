@@ -46,7 +46,7 @@ public class PatientDetails {
         Patient p1 = new Patient("200",20,1.69);
         Patient p2 = new Patient("201");
         Patient p3 = new Patient(21);
-        Patient p4 = new  Patient(1.69);
+        Patient p4 = new  Patient(2.46564);
         // printData(p1);
         // printData(p2);
         // printData(p3);
